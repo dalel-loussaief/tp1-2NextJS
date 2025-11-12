@@ -1,0 +1,10 @@
+export default function LoadingSpinner() {
+  return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="flex items-center space-x-2">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+        <span className="text-lg text-gray-600">Chargement...</span>
+      </div>
+    </div>
+  );
+}
